@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15-05-23-Kasper</title>
+    <script
+      src="https://kit.fontawesome.com/472910ecc6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/Js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="form-tag">
+      <div class="form-section-wrapper">
+        <div class="form-section-left">
+          <h2>Get In Touch</h2>
+          <i class="fa-solid fa-location-dot"
+            ><p>123 Mockup St., New York</p></i
+          >
+          <i class="fa-solid fa-phone"><p>(+1) 123 456 7890</p></i>
+          <i class="fa-solid fa-mobile-screen-button"
+            ><p>(+1) 123 456 7890</p></i
+          >
+          <form
+            id="formm"
+            action="/"
+            method="get"
+            onsubmit="return(validate())"
+          >
+            <div class="error-message"><h3>Fix Following Errors:</h3></div>
+            <input
+              placeholder="First Name"
+              type="text"
+              name="firstname"
+              id="firstname"
+            />
+
+            <input
+              placeholder="Email Address"
+              type="email"
+              name="accountmail"
+              id="accountmail"
+            />
+            <br />
+            <textarea name="textarea" id="textarea"></textarea>
+            <br />
+            <button type="submit" class="gradientbutton">Send</button>
+          </form>
+        </div>
+        <i onclick="formtags()" class="fa-regular fa-circle-xmark"></i>
+        <div class="form-section-right">
+          <img src="/assets/formpic.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="scroll-down">
+        <a href="#SW"
+          ><i class="fa-regular fa-circle-down"><p>Scroll Down</p></i></a
+        >
+      </div>
+      <nav>
+        <i onclick="burgerMenu()" class="fa-solid fa-bars"></i>
+        <i onclick="burgerMenu()" class="fa-solid fa-x"></i>
+        <ul>
+          <li>Mockup Company</li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html">Product</a></li>
+          <li><a href="/index.html">Solutions</a></li>
+          <li><a href="/index.html">About</a></li>
+          <li><a href="/index.html">Pricing</a></li>
+          <li><a onclick="formtags()" href="#">Contact</a></li>
+          <li><a href="/index.html">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-content">
+        <h1>Mockup to empower your creative workflow</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="header-buttons">
+          <a class="learnButton" href="/index.html">Learn more</a>
+          <a class="getStartedBtn" href="/index.html">Get started</a>
+        </div>
+      </div>
+    </header>
+    <section id="SW" class="selected-works">
+      <div class="selected-top">
+        <h2>Selected Works</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna
+        </p>
+        <ul>
+          <li><a href="/index.html">Show all</a></li>
+          <li><a href="/index.html">Products</a></li>
+          <li><a href="/index.html">Solutions</a></li>
+          <li><a href="/index.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="selected-bottom">
+        <img src="/assets/box1.png" alt="" />
+        <img src="/assets/box2.png" alt="" />
+        <img src="/assets/box3.png" alt="" />
+        <img src="/assets/box4.png" alt="" />
+        <img src="/assets/box5.png" alt="" />
+        <img src="/assets/box6.png" alt="" />
+      </div>
+    </section>
+    <section class="feature-name">
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-left">
+          <img src="/assets/heart.png" alt="" />
+        </div>
+        <div class="article-right">
+          <h3>Feature name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut.
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="qoute">
+      <h2>
+        “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna”
+      </h2>
+      <p>Name, Title, Company</p>
+    </section>
+    <section class="numbers-section">
+      <ul>
+        <li>
+          <h2>1200</h2>
+          <p>Lorem ipsum</p>
+        </li>
+        <li>
+          <h2>378</h2>
+          <p>Lorem ipsum</p>
+        </li>
+        <li>
+          <h2>197</h2>
+          <p>Lorem ipsum</p>
+        </li>
+        <li>
+          <h2>2570</h2>
+          <p>Lorem ipsum</p>
+        </li>
+      </ul>
+    </section>
+    <section class="latest-news">
+      <h2>Latest News</h2>
+      <p class="top-latest-news-p">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna
+      </p>
+
+      <div class="article-boxes">
+        <article>
+          <div class="article-boxes-top">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero
+            </p>
+          </div>
+          <hr />
+          <div class="article-boxes-bottom">
+            <div class="article-img">
+              <img src="/assets/profilepic.png" alt="" />
+            </div>
+            <div class="artcile-name">
+              <h4>Name</h4>
+              <h5>5 hours ago</h5>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="article-boxes-top">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero
+            </p>
+          </div>
+          <hr />
+          <div class="article-boxes-bottom">
+            <div class="article-img">
+              <img src="/assets/profilepic.png" alt="" />
+            </div>
+            <div class="artcile-name">
+              <h4>Name</h4>
+              <h5>5 hours ago</h5>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="article-boxes-top">
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero
+            </p>
+          </div>
+          <hr />
+          <div class="article-boxes-bottom">
+            <div class="article-img">
+              <img src="/assets/profilepic.png" alt="" />
+            </div>
+            <div class="artcile-name">
+              <h4>Name</h4>
+              <h5>5 hours ago</h5>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <a href="/index.html">See more</a>
+    </section>
+    <footer>
+      <div class="footer-left">
+        <h2>Mockup Company</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <ul>
+          <li>
+            <a href="/index.html"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="/index.html"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="/index.html"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="/index.html"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="/index.html"><i class="fa-solid fa-phone"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <ul>
+          <h4>Products</h4>
+          <li>Product 1</li>
+          <li>Product 2</li>
+          <li>Product 3</li>
+          <li>Product 4</li>
+        </ul>
+
+        <ul>
+          <h4>Services</h4>
+          <li>Product 1</li>
+          <li>Product 2</li>
+          <li>Product 3</li>
+          <li>Product 4</li>
+        </ul>
+
+        <ul>
+          <h4>Resources</h4>
+          <li>News</li>
+          <li>Blog</li>
+          <li>Vidoes</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+    </footer>
+    <address>
+      <p class="copyright">&copy 2020 Mockup. All Rights Reserved.</p>
+      <p>Privacy Policy</p>
+      <p>Terms of Service</p>
+    </address>
+  </body>
+</html>

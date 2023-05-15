@@ -1,0 +1,7 @@
+Ekstra Features:
+
+#1. Når kontakt siden er åben kan du trykke på den sorte felt hvor formen ikke er i og så lukker siden så du ikke behøver at klikke på krydset
+
+#2. i responsiv hvor du trykker ind på burger menuen og klikker på "contact" knappen så lukker burger menuen sammen omme bag ved så når man klikker ud af "contact" siden så er man ikke inde på burgermenuen
+
+#3. Scroll Down knappen virker! 
